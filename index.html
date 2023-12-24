@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch with Pause and Record</title>
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div id="display" class="stopwatch-display">00:00:00</div>
+        <button id="startStop" class="control-button" onclick="startStop()">Start</button>
+        <button id="pauseResume" class="control-button" onclick="pauseResume()">Pause</button>
+        <button id="reset" class="control-button" onclick="reset()">Reset</button>
+        <button id="record" class="control-button" onclick="record()">Record Time</button>
+        <div id="recordedTimes" class="recorded-times"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
